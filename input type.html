@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type</title>
+</head>
+<body style="margin-bottom: 200px; ">
+    <center>
+        <h1>Input type --text and Password</h1>
+
+    <form action="example.php" method="POST" autocomplete="on">
+        <label for="t">Name</label>
+        <input type="text" name="" id="t"><br><br> <!--text use-->
+        <label for="p">Password</label>
+        <input type="password" name="" id="p"><br><br> <!--password word-->
+        <input type="submit" value="Submit"> <!--submit use-->
+        <input type="reset" value="Reset"> <!--reset-->
+        <br><br>
+        <p>Choose any item</p>
+        <input type="radio" name="c" id="html">
+        <label for="html"> html</label>
+        <input type="radio" name="c" id="css">
+        <label for="css">CSS</label>
+        <input type="radio" name="c" id="JS">
+        <label for="JS">JavaScript</label>
+
+        <br><br>
+        <h4>Choose your Subjects</h4>
+        <ul type="i">
+            
+            <li>
+                <input type="checkbox" name="" id="i1">
+                <label for="i1">CSE-601</label>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="i2">
+                <label for="i2">CSE-601</label>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="i3">
+                <label for="i3">CSE-601</label>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="i4">
+                <label for="i4">CSE-601</label>
+            </li>
+        </ul>
+
+        <!--Color use-->
+        <label for="bColor">Select your favourite Color</label>
+        <input type="color" name="" id="bColor" value="##FF0000">
+<br>
+        <!--Date type-->
+        <label for="date">BirthDay</label>
+        <input type="date" name="" id="date">
+        <!--Date time local-->
+        <br>
+        <label for="bt"></label>
+        <input type="datetime-local" name="bt" id="bt">
+<br>
+<hr>
+     <!--Inoput type image-->
+     <label for="name">Name:</label>
+     <input type="text" name="name" id="name">
+
+     <br>
+     <br>
+     <label for="email">Email:</label>
+     <input type="email" name="email" id="email">
+     <br><br>
+     <input type="image" src="button.jpg" width="48" height="48" alt="">
+
+     <br><br><hr>
+     <!--File select from browser-->
+     <label for="mf">Select a file :</label>
+     <input type="file" name="mf" id="mf" >
+<br><br>
+     <!--Hidden field-->
+        <label for="t">Name</label>
+        <input type="text" name="t" id="t" autofocus>
+
+        <input type="hidden" name="a" value="123">
+
+        <br><br>
+        <label for="qty">Quantity</label>
+        <input type="number" name="qty" id="qty" min="0" max="100" step="10" value="30"><br><br>
+        
+        <label for="gse">Search Google</label>
+        <input type="search" name="" id="gse">
+        <p>gygt ytggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggyuyuyuyuyuyuyuyuyuyuyuyuyuyuuiuuuuuuuuuuuuuuuuuuuooooooooooooooooooooooooooooooooogo7y666666</p>
+        <br><br>
+
+        <label for="phone-number">Enter your phone number</label><br><br>
+        <input type="tel" name="phone-number" pattern="01[3-9]{1}[0-9]{8}" id="phone-number" placeholder="01925-375672" required>
+
+      <label for="u">Enter your website:</label>
+        <input type="url" name="" id="u" value="https://alam.comfdsiurtgsrg" size="4">
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+</body>
+</html>

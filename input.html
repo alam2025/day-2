@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type</title>
+</head>
+
+<body>
+    <form action="/action_page.php" target="_blank" method="POST" autocomplete="on">
+        <p>Choose your favourite Items</p>
+        <label for="fname">First Name:</label>
+        <input type="text" name="" id="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="" id="lname">
+
+        <p>Choose Your Gender:
+        <p>
+            <input type="checkbox" name="" id="gender" value="male">
+            <label for="gender">male</label>
+
+            <input type="checkbox" name="" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="g" id="femal">
+            <label for="femal">Female</label>
+            <input type="radio" name="g" id="chele">
+            <label for="chele">mALE</label>
+            <input type="radio" name="g" id="o">
+            <label for="o">Others</label>
+            <br>
+            <hr>
+            <label for="">Password</label>
+            <input type="password" name="" id=""><br>
+            <label for="">Re-type password</label>
+            <input type="password" name="" id="">
+            <br>
+            <input type="button" value="Ok">
+            <input type="submit" value="Submit">
+            <br>
+            <label for="item">Choose your Favourite Book</label>
+            <select name="item" id="" multiple>
+                <option value="">Quran</option>
+                <option value="Liteature">Liteature</option>
+                <option value="" selected>Commedy</option>
+                <option value="">Stadegy</option>
+                <option value="">Jogy</option>
+                <option value="">Others</option>
+                <input type="submit" value="submit">
+            </select>
+            <br><hr>
+            <center>
+                <textarea name="message" id="" cols="50" rows="4"></textarea>
+               <button type="button" onclick="alert('Sending Message!')">Send</button>
+            </center>
+            <hr>
+        <center>
+            <fieldset>
+                <legend>Personal Information</legend> l
+                <label for="fname">First Name:</label>
+                <input type="text" list="name" name="" id="fname">
+                <datalist id="name">
+                    <option value="Alam"></option>
+                    <option value="Raiin"></option>
+                    <option value="Sabbir"></option>
+                    <option value="Selim"></option>
+                </datalist>
+                <label for="lname">Last name:</label>
+                <input type="text" name="" id="lname">
+                <input type="submit" value="Submit">
+             </fieldset>
+        </center>
+
+
+        
+    </form>
+    <p>calculation</p>
+    <form action="">
+       0<input type="range" name="" id="a">100
+        =
+        <output name="x" for="a"></output>
+    </form>
+
+
+</body>
+
+</html>
